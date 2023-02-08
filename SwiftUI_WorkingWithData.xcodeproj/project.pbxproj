@@ -14,6 +14,7 @@
 		C9F90C6629934F830080D286 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90C6529934F830080D286 /* HeaderView.swift */; };
 		C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94B9299350D600CB78FD /* StructVariables.swift */; };
 		C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94BB2993525C00CB78FD /* DescView.swift */; };
+		C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94BD2993540000CB78FD /* PassInValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C9F90C6529934F830080D286 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C9FF94B9299350D600CB78FD /* StructVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVariables.swift; sourceTree = "<group>"; };
 		C9FF94BB2993525C00CB78FD /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
+		C9FF94BD2993540000CB78FD /* PassInValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassInValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FF94B9299350D600CB78FD /* StructVariables.swift */,
+				C9FF94BD2993540000CB78FD /* PassInValue.swift */,
 			);
 			path = "Struct Properties";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
+				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,
 			);

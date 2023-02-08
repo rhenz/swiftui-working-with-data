@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */; };
 		C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE4E5D29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift */; };
 		C9AE4E6029934EE00015871A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE4E5F29934EE00015871A /* ContentView.swift */; };
 		C9AE4E6229934EE10015871A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AE4E6129934EE10015871A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		C9AE4E5A29934EE00015871A /* SwiftUI_WorkingWithData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_WorkingWithData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AE4E5D29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WorkingWithDataApp.swift; sourceTree = "<group>"; };
 		C9AE4E5F29934EE00015871A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C98C04582993CEF800D9FA5C /* Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */,
+			);
+			path = "Property Wrappers";
+			sourceTree = "<group>";
+		};
 		C9AE4E5129934EE00015871A = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				C9AE4E5F29934EE00015871A /* ContentView.swift */,
 				C9AE4E6B29934EE50015871A /* Common */,
 				C9FF94B8299350CB00CB78FD /* Struct Properties */,
+				C98C04582993CEF800D9FA5C /* Property Wrappers */,
 				C9AE4E6129934EE10015871A /* Assets.xcassets */,
 				C9AE4E6329934EE10015871A /* Preview Content */,
 			);
@@ -171,6 +182,7 @@
 				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,
+				C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

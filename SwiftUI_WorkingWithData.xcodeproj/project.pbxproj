@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */; };
 		C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045C2993E93900D9FA5C /* BindingToState.swift */; };
 		C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		C98C045C2993E93900D9FA5C /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
 		C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				C98C045C2993E93900D9FA5C /* BindingToState.swift */,
 				C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */,
 				C9F0F77F29953A7B000527EB /* StateWithTextField.swift */,
+				C950C31829960487004F7440 /* StateWithToggle.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
 				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
+				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
 				C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,
 				C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */,

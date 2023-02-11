@@ -10,6 +10,7 @@
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31A299605ED004F7440 /* StateWithPicker.swift */; };
 		C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31C29963251004F7440 /* StateWithModifiers.swift */; };
+		C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C963EEE22997BF3900180B05 /* StateWithStructData.swift */; };
 		C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */; };
 		C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045C2993E93900D9FA5C /* BindingToState.swift */; };
 		C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */; };
@@ -28,6 +29,7 @@
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C950C31A299605ED004F7440 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 		C950C31C29963251004F7440 /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
+		C963EEE22997BF3900180B05 /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		C98C045C2993E93900D9FA5C /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
 		C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				C950C31829960487004F7440 /* StateWithToggle.swift */,
 				C950C31A299605ED004F7440 /* StateWithPicker.swift */,
 				C950C31C29963251004F7440 /* StateWithModifiers.swift */,
+				C963EEE22997BF3900180B05 /* StateWithStructData.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
 				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
+				C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,

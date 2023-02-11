@@ -10,6 +10,7 @@
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31A299605ED004F7440 /* StateWithPicker.swift */; };
 		C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31C29963251004F7440 /* StateWithModifiers.swift */; };
+		C952BD992997C0710094E53F /* StateBindingWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */; };
 		C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C963EEE22997BF3900180B05 /* StateWithStructData.swift */; };
 		C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */; };
 		C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045C2993E93900D9FA5C /* BindingToState.swift */; };
@@ -29,6 +30,7 @@
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C950C31A299605ED004F7440 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 		C950C31C29963251004F7440 /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
+		C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWithOtherViews.swift; sourceTree = "<group>"; };
 		C963EEE22997BF3900180B05 /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		C98C045C2993E93900D9FA5C /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				C950C31A299605ED004F7440 /* StateWithPicker.swift */,
 				C950C31C29963251004F7440 /* StateWithModifiers.swift */,
 				C963EEE22997BF3900180B05 /* StateWithStructData.swift */,
+				C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */,
 				C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */,
 				C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */,
+				C952BD992997C0710094E53F /* StateBindingWithOtherViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

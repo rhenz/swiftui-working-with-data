@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
+		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31A299605ED004F7440 /* StateWithPicker.swift */; };
 		C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31C29963251004F7440 /* StateWithModifiers.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
+		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C950C31A299605ED004F7440 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 		C950C31C29963251004F7440 /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				C963EEE22997BF3900180B05 /* StateWithStructData.swift */,
 				C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */,
 				C9487B9A2999426100F998EF /* StateWithClassData.swift */,
+				C9487B9C2999474600F998EF /* State_Previewing.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
 				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
 				C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */,
+				C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,

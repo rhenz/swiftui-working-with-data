@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31A299605ED004F7440 /* StateWithPicker.swift */; };
 		C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31C29963251004F7440 /* StateWithModifiers.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C950C31A299605ED004F7440 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 		C950C31C29963251004F7440 /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				C950C31C29963251004F7440 /* StateWithModifiers.swift */,
 				C963EEE22997BF3900180B05 /* StateWithStructData.swift */,
 				C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */,
+				C9487B9A2999426100F998EF /* StateWithClassData.swift */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */,
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,

@@ -42,13 +42,6 @@ struct StateWithClassData: View {
          
          Spacer()
          
-         Button("One-Way-Bind-Button") {
-            // Initializing new `NameClass` to update the state property
-            self.name = NameClass(first: "Better Call", last: "Saul")
-         }
-         
-         Spacer()
-         
          DescView("But it won't work for two-way binds. Notice the screen isn't updating the name", backgroundColor: .blue, textColor: .white)
       }
       .font(.title)

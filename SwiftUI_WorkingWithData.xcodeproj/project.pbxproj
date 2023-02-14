@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEDD299BABBF00C270A2 /* BindingWithList.swift */; };
+		C912EEE0299BAC7C00C270A2 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */; };
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C912EEDD299BABBF00C270A2 /* BindingWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BindingWithList.swift; path = ../../../../../../BindingWithList.swift; sourceTree = "<group>"; };
+		C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C912EEDC299BAB5D00C270A2 /* @Binding */ = {
+			isa = PBXGroup;
+			children = (
+				C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */,
+				C912EEDD299BABBF00C270A2 /* BindingWithList.swift */,
+			);
+			path = "@Binding";
+			sourceTree = "<group>";
+		};
 		C98C04582993CEF800D9FA5C /* Property Wrappers */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +125,7 @@
 				C9FF94B8299350CB00CB78FD /* Struct Properties */,
 				C98C04582993CEF800D9FA5C /* Property Wrappers */,
 				C98C045B2993E92A00D9FA5C /* @State */,
+				C912EEDC299BAB5D00C270A2 /* @Binding */,
 				C9AE4E6129934EE10015871A /* Assets.xcassets */,
 				C9AE4E6329934EE10015871A /* Preview Content */,
 			);
@@ -218,11 +232,13 @@
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
+				C912EEE0299BAC7C00C270A2 /* EditPersonView.swift in Sources */,
 				C9FF94BE2993540000CB78FD /* PassInValue.swift in Sources */,
 				C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */,
 				C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */,
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
+				C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,
 				C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,

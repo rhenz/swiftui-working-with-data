@@ -27,6 +27,7 @@
 		C98D082A29A45241001D9A86 /* StateObject_PassInObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D082929A45241001D9A86 /* StateObject_PassInObject.swift */; };
 		C99D696E299D3A1E0064D7E0 /* BindingWithLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D696D299D3A1E0064D7E0 /* BindingWithLazyVStack.swift */; };
 		C9A2B83029A5A998002E06F2 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2B82F29A5A998002E06F2 /* Forecast.swift */; };
+		C9A2B83229A5AAB8002E06F2 /* ObservableObject_WithSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2B83129A5AAB8002E06F2 /* ObservableObject_WithSubview.swift */; };
 		C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE4E5D29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift */; };
 		C9AE4E6029934EE00015871A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE4E5F29934EE00015871A /* ContentView.swift */; };
 		C9AE4E6229934EE10015871A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AE4E6129934EE10015871A /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		C98D082929A45241001D9A86 /* StateObject_PassInObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_PassInObject.swift; sourceTree = "<group>"; };
 		C99D696D299D3A1E0064D7E0 /* BindingWithLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithLazyVStack.swift; sourceTree = "<group>"; };
 		C9A2B82F29A5A998002E06F2 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		C9A2B83129A5AAB8002E06F2 /* ObservableObject_WithSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject_WithSubview.swift; sourceTree = "<group>"; };
 		C9AE4E5A29934EE00015871A /* SwiftUI_WorkingWithData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_WorkingWithData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AE4E5D29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WorkingWithDataApp.swift; sourceTree = "<group>"; };
 		C9AE4E5F29934EE00015871A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				C9A2B82F29A5A998002E06F2 /* Forecast.swift */,
+				C9A2B83129A5AAB8002E06F2 /* ObservableObject_WithSubview.swift */,
 			);
 			path = "@ObservedObject";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */,
 				C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */,
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
+				C9A2B83229A5AAB8002E06F2 /* ObservableObject_WithSubview.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,
 				C912EEE0299BAC7C00C270A2 /* EditPersonView.swift in Sources */,

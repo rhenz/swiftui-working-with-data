@@ -68,3 +68,15 @@ struct ForecastView: View {
         .font(.title)
     }
 }
+
+struct ForecastView_Previews: PreviewProvider {
+    @StateObject private static var weather = WeatherForecast()
+    
+    static var previews: some View {
+        Group {
+            ForecastView(forecast: weather, showForecast: .constant(true))
+            
+            ForecastView(forecast: WeatherForecast(), showForecast: .constant(true))
+        }
+    }
+}

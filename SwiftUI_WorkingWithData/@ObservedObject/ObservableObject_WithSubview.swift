@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ObservableObject_WithSubview: View {
-    @StateObject private var forecast = Forecast()
+    @StateObject private var forecast = WeatherForecast()
     @State private var showForecast = false
     
     var body: some View {
@@ -21,14 +21,15 @@ struct ObservableObject_WithSubview: View {
                     Image(systemName: forecast.forecast[0].icon)
                         .font(.system(size: 120))
                         .foregroundColor(.pink)
-                    Button("Show 7 Day Forecast") {
+                    Button("Show 14-Day Forecast") {
                         showForecast = true
+                        forecast.fetchAnotherWeek()
                     }
                 }
                 .font(.largeTitle)
                 
                 if showForecast {
-//                    ForecastView(forecast: forecast, showForecast, $showForecast)
+                    ForecastView(forecast: forecast, showForecast: $showForecast)
                 }
             }
             .navigationTitle("@ObservedObject")
@@ -44,7 +45,7 @@ struct ObservableObject_WithSubview_Previews: PreviewProvider {
 
 // MARK: - Forecast View
 struct ForecastView: View {
-    @ObservedObject var forecast: Forecast
+    @ObservedObject var forecast: WeatherForecast
     @Binding var showForecast: Bool
     
     var body: some View {

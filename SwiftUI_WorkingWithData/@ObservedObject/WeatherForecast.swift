@@ -32,8 +32,8 @@ class WeatherForecast: ObservableObject {
     }
     
     func fetchAnotherWeek() {
-        // Run this code 1 second later
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [self] in
+        // Run this code 2 second later
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
             forecast.append(contentsOf: forecast)
         }
     }

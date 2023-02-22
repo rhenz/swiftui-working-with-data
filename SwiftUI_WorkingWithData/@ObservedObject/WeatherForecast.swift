@@ -9,9 +9,9 @@ import Foundation
 
 
 
-class Forecast: ObservableObject {
+class WeatherForecast: ObservableObject {
     @Published
-    var sevenDays = [Weather]()
+    var forecast = [Weather]()
     
     struct Weather: Identifiable {
         let id = UUID()
@@ -20,7 +20,7 @@ class Forecast: ObservableObject {
     }
     
     init() {
-        sevenDays = [
+        forecast = [
             Weather(day: "Sunday", icon: "cloud.snow.fill"),
             Weather(day: "Monday", icon: "sun.min.fill"),
             Weather(day: "Tuesday", icon: "sun.max.fill"),
@@ -29,5 +29,12 @@ class Forecast: ObservableObject {
             Weather(day: "Friday", icon: "cloud.drizzle.fill"),
             Weather(day: "Saturday", icon: "cloud.sleet.fill")
         ]
+    }
+    
+    func fetchAnotherWeek() {
+        // Run this code 1 second later
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [self] in
+            forecast.append(contentsOf: forecast)
+        }
     }
 }

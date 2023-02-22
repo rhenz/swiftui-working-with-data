@@ -17,8 +17,8 @@ struct ObservableObject_WithSubview: View {
                 VStack(spacing: 24) {
                     HeaderView(title: "", subtitle: "Introduction", desc: "Pass a reference of your @StateObject into a subview that has a type @ObserverdObject")
                     
-                    Text(forecast.sevenDays[0].day)
-                    Image(systemName: forecast.sevenDays[0].icon)
+                    Text(forecast.forecast[0].day)
+                    Image(systemName: forecast.forecast[0].icon)
                         .font(.system(size: 120))
                         .foregroundColor(.pink)
                     Button("Show 7 Day Forecast") {
@@ -39,5 +39,31 @@ struct ObservableObject_WithSubview: View {
 struct ObservableObject_WithSubview_Previews: PreviewProvider {
     static var previews: some View {
         ObservableObject_WithSubview()
+    }
+}
+
+// MARK: - Forecast View
+struct ForecastView: View {
+    @ObservedObject var forecast: Forecast
+    @Binding var showForecast: Bool
+    
+    var body: some View {
+        VStack {
+            List(forecast.forecast) { day in
+                Label {
+                    Text(day.day)
+                        .font(.title)
+                } icon: {
+                    Image(systemName: day.icon)
+                        .font(.title)
+                        .foregroundColor(.pink)
+                }
+            }
+            
+            Button("Close") {
+                showForecast.toggle()
+            }
+        }
+        .font(.title)
     }
 }

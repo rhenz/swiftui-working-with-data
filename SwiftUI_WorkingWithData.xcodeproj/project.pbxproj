@@ -20,6 +20,7 @@
 		C952BD992997C0710094E53F /* StateBindingWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */; };
 		C954B0CE299EB1F20083DF0B /* ClassData_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954B0CD299EB1F20083DF0B /* ClassData_Binding.swift */; };
 		C963EEE32997BF3900180B05 /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C963EEE22997BF3900180B05 /* StateWithStructData.swift */; };
+		C97DAD2429A850E400024083 /* AppStorage_Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97DAD2329A850E400024083 /* AppStorage_Persistence.swift */; };
 		C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */; };
 		C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045C2993E93900D9FA5C /* BindingToState.swift */; };
 		C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */; };
@@ -55,6 +56,7 @@
 		C952BD982997C0710094E53F /* StateBindingWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWithOtherViews.swift; sourceTree = "<group>"; };
 		C954B0CD299EB1F20083DF0B /* ClassData_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassData_Binding.swift; sourceTree = "<group>"; };
 		C963EEE22997BF3900180B05 /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
+		C97DAD2329A850E400024083 /* AppStorage_Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Persistence.swift; sourceTree = "<group>"; };
 		C98C04592993CF0700D9FA5C /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		C98C045C2993E93900D9FA5C /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
 		C98C045E2993EAB600D9FA5C /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				C9A7630129A6FB0C0070E669 /* AppStorage_Intro.swift */,
 				C9A7630329A6FB9D0070E669 /* AppStorage_Edit.swift */,
+				C97DAD2329A850E400024083 /* AppStorage_Persistence.swift */,
 			);
 			path = "@AppStorage";
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
 				C98D082A29A45241001D9A86 /* StateObject_PassInObject.swift in Sources */,
 				C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */,
+				C97DAD2429A850E400024083 /* AppStorage_Persistence.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,
 				C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,

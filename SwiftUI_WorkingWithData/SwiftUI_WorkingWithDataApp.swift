@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_WorkingWithDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppStorage_Persistence()
         }
     }
 }

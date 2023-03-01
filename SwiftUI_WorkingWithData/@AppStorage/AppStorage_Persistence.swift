@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AppStorage_Persistence: View {
+    // “Remember, false is NOT being set to the @AppStorage key. It’s only being used if no key exists.”
+    
+    // Note that you can create a two-way binding with @AppStorage property. There's no need to save the data.
     @AppStorage("darkBackground") var darkBackground = false
     
     var body: some View {

@@ -15,6 +15,8 @@
 		C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */; };
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
+		C94A9E9E29B05EA30076F116 /* SavingData_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A9E9D29B05EA30076F116 /* SavingData_SceneStorage.swift */; };
+		C94A9EA029B05F050076F116 /* SavingData_DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A9E9F29B05F050076F116 /* SavingData_DataEntry.swift */; };
 		C950C31929960487004F7440 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31829960487004F7440 /* StateWithToggle.swift */; };
 		C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31A299605ED004F7440 /* StateWithPicker.swift */; };
 		C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C31C29963251004F7440 /* StateWithModifiers.swift */; };
@@ -52,6 +54,8 @@
 		C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
+		C94A9E9D29B05EA30076F116 /* SavingData_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingData_SceneStorage.swift; sourceTree = "<group>"; };
+		C94A9E9F29B05F050076F116 /* SavingData_DataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingData_DataEntry.swift; sourceTree = "<group>"; };
 		C950C31829960487004F7440 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		C950C31A299605ED004F7440 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 		C950C31C29963251004F7440 /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
@@ -113,6 +117,15 @@
 				C98D082929A45241001D9A86 /* StateObject_PassInObject.swift */,
 			);
 			path = "@StateObject";
+			sourceTree = "<group>";
+		};
+		C94A9E9C29B05E920076F116 /* @SceneStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C94A9E9D29B05EA30076F116 /* SavingData_SceneStorage.swift */,
+				C94A9E9F29B05F050076F116 /* SavingData_DataEntry.swift */,
+			);
+			path = "@SceneStorage";
 			sourceTree = "<group>";
 		};
 		C98C04582993CEF800D9FA5C /* Property Wrappers */ = {
@@ -189,6 +202,7 @@
 				C914E0C329A0D5B20067A93E /* @StateObject */,
 				C9A2B82E29A5A855002E06F2 /* @ObservedObject */,
 				C9A7630029A6FAF90070E669 /* @AppStorage */,
+				C94A9E9C29B05E920076F116 /* @SceneStorage */,
 				C9AE4E6129934EE10015871A /* Assets.xcassets */,
 				C9AE4E6329934EE10015871A /* Preview Content */,
 			);
@@ -296,6 +310,7 @@
 				C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */,
 				C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */,
 				C9A7630229A6FB0C0070E669 /* AppStorage_Intro.swift in Sources */,
+				C94A9E9E29B05EA30076F116 /* SavingData_SceneStorage.swift in Sources */,
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
 				C9A2B83229A5AAB8002E06F2 /* ObservableObject_WithSubview.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
@@ -310,6 +325,7 @@
 				C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */,
 				C97DAD2429A850E400024083 /* AppStorage_Persistence.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,
+				C94A9EA029B05F050076F116 /* SavingData_DataEntry.swift in Sources */,
 				C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */,
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,
 				C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */,

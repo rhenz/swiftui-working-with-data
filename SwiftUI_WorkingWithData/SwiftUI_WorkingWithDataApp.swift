@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_WorkingWithDataApp: App {
     var body: some Scene {
         WindowGroup {
-            AppStorage_Persistence()
+            EnvironmentObject_GloballyAccessible()
+                .environmentObject(UserModel())
         }
     }
 }

@@ -12,6 +12,7 @@
 		C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEE1299BAD6300C270A2 /* BindingWithList_iOS15.swift */; };
 		C914E0C529A0D5C00067A93E /* StateObject_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */; };
 		C914E0C729A0D7450067A93E /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */; };
+		C91A4B1429B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */; };
 		C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */; };
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
@@ -52,6 +53,7 @@
 		C912EEE1299BAD6300C270A2 /* BindingWithList_iOS15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithList_iOS15.swift; sourceTree = "<group>"; };
 		C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_Intro.swift; sourceTree = "<group>"; };
 		C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
+		C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_GloballyAccessible.swift; sourceTree = "<group>"; };
 		C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				C966AF5529B44AB000F41140 /* EnvironmentObject_Intro.swift */,
+				C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */,
 			);
 			path = "@EnvironmentObject";
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				C99D696E299D3A1E0064D7E0 /* BindingWithLazyVStack.swift in Sources */,
 				C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */,
 				C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */,
+				C91A4B1429B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift in Sources */,
 				C9A7630229A6FB0C0070E669 /* AppStorage_Intro.swift in Sources */,
 				C94A9E9E29B05EA30076F116 /* SavingData_SceneStorage.swift in Sources */,
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,

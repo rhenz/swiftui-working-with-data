@@ -13,6 +13,7 @@
 		C914E0C529A0D5C00067A93E /* StateObject_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */; };
 		C914E0C729A0D7450067A93E /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */; };
 		C91A4B1429B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */; };
+		C91A4B1629B5A6100082326D /* EnvironmentObject_OnParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */; };
 		C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */; };
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
@@ -54,6 +55,7 @@
 		C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_Intro.swift; sourceTree = "<group>"; };
 		C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
 		C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_GloballyAccessible.swift; sourceTree = "<group>"; };
+		C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_OnParentView.swift; sourceTree = "<group>"; };
 		C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				C966AF5529B44AB000F41140 /* EnvironmentObject_Intro.swift */,
 				C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */,
+				C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */,
 			);
 			path = "@EnvironmentObject";
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				C9A7630429A6FB9D0070E669 /* AppStorage_Edit.swift in Sources */,
 				C98C045D2993E93900D9FA5C /* BindingToState.swift in Sources */,
 				C9A2B83029A5A998002E06F2 /* WeatherForecast.swift in Sources */,
+				C91A4B1629B5A6100082326D /* EnvironmentObject_OnParentView.swift in Sources */,
 				C954B0CE299EB1F20083DF0B /* ClassData_Binding.swift in Sources */,
 				C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */,
 				C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */,

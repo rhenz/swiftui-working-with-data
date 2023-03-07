@@ -14,6 +14,7 @@
 		C914E0C729A0D7450067A93E /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */; };
 		C91A4B1429B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */; };
 		C91A4B1629B5A6100082326D /* EnvironmentObject_OnParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */; };
+		C91A4B1829B608CE0082326D /* Environment_NotAvailableInInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A4B1729B608CE0082326D /* Environment_NotAvailableInInit.swift */; };
 		C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */; };
 		C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9A2999426100F998EF /* StateWithClassData.swift */; };
 		C9487B9D2999474600F998EF /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9487B9C2999474600F998EF /* State_Previewing.swift */; };
@@ -56,6 +57,7 @@
 		C914E0C629A0D7450067A93E /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
 		C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_GloballyAccessible.swift; sourceTree = "<group>"; };
 		C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_OnParentView.swift; sourceTree = "<group>"; };
+		C91A4B1729B608CE0082326D /* Environment_NotAvailableInInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_NotAvailableInInit.swift; sourceTree = "<group>"; };
 		C932285D29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
 		C9487B9A2999426100F998EF /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		C9487B9C2999474600F998EF /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
@@ -102,6 +104,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C90D42B429B72E9700768A30 /* Input&Output Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Input&Output Modifiers";
+			sourceTree = "<group>";
+		};
 		C912EEDC299BAB5D00C270A2 /* @Binding */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +149,7 @@
 				C966AF5529B44AB000F41140 /* EnvironmentObject_Intro.swift */,
 				C91A4B1329B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift */,
 				C91A4B1529B5A6100082326D /* EnvironmentObject_OnParentView.swift */,
+				C91A4B1729B608CE0082326D /* Environment_NotAvailableInInit.swift */,
 			);
 			path = "@EnvironmentObject";
 			sourceTree = "<group>";
@@ -220,6 +230,7 @@
 				C9A7630029A6FAF90070E669 /* @AppStorage */,
 				C94A9E9C29B05E920076F116 /* @SceneStorage */,
 				C966AF5429B44AA200F41140 /* @EnvironmentObject */,
+				C90D42B429B72E9700768A30 /* Input&Output Modifiers */,
 				C9AE4E6129934EE10015871A /* Assets.xcassets */,
 				C9AE4E6329934EE10015871A /* Preview Content */,
 			);
@@ -330,6 +341,7 @@
 				C9A7630229A6FB0C0070E669 /* AppStorage_Intro.swift in Sources */,
 				C94A9E9E29B05EA30076F116 /* SavingData_SceneStorage.swift in Sources */,
 				C9AE4E6029934EE00015871A /* ContentView.swift in Sources */,
+				C91A4B1829B608CE0082326D /* Environment_NotAvailableInInit.swift in Sources */,
 				C9A2B83229A5AAB8002E06F2 /* ObservableObject_WithSubview.swift in Sources */,
 				C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */,
 				C9F90C6629934F830080D286 /* HeaderView.swift in Sources */,

@@ -11,8 +11,7 @@ import SwiftUI
 struct SwiftUI_WorkingWithDataApp: App {
     var body: some Scene {
         WindowGroup {
-            EnvironmentObject_GloballyAccessible()
-                .environmentObject(UserModel())
+            OnReceive_Intro()
         }
     }
 }

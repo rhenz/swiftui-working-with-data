@@ -47,6 +47,7 @@
 		C9C0504429B85C45005DE57E /* OnChange_PreviousValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0504329B85C45005DE57E /* OnChange_PreviousValue.swift */; };
 		C9C0504629B88512005DE57E /* OnReceive_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0504529B88512005DE57E /* OnReceive_Intro.swift */; };
 		C9C22F0B29BA088000B31F44 /* OnReceive_PublisherOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C22F0A29BA088000B31F44 /* OnReceive_PublisherOutput.swift */; };
+		C9C22F0D29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C22F0C29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift */; };
 		C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F0F77F29953A7B000527EB /* StateWithTextField.swift */; };
 		C9F90C6629934F830080D286 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90C6529934F830080D286 /* HeaderView.swift */; };
 		C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94B9299350D600CB78FD /* StructVariables.swift */; };
@@ -96,6 +97,7 @@
 		C9C0504329B85C45005DE57E /* OnChange_PreviousValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_PreviousValue.swift; sourceTree = "<group>"; };
 		C9C0504529B88512005DE57E /* OnReceive_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_Intro.swift; sourceTree = "<group>"; };
 		C9C22F0A29BA088000B31F44 /* OnReceive_PublisherOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_PublisherOutput.swift; sourceTree = "<group>"; };
+		C9C22F0C29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_WithEnvironmentObject.swift; sourceTree = "<group>"; };
 		C9F0F77F29953A7B000527EB /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
 		C9F90C6529934F830080D286 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C9FF94B9299350D600CB78FD /* StructVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVariables.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				C9C0504329B85C45005DE57E /* OnChange_PreviousValue.swift */,
 				C9C0504529B88512005DE57E /* OnReceive_Intro.swift */,
 				C9C22F0A29BA088000B31F44 /* OnReceive_PublisherOutput.swift */,
+				C9C22F0C29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift */,
 			);
 			path = "Input&Output Modifiers";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				C9AE4E5E29934EE00015871A /* SwiftUI_WorkingWithDataApp.swift in Sources */,
 				C98C045F2993EAB600D9FA5C /* PropertyWrappers.swift in Sources */,
 				C914E0C529A0D5C00067A93E /* StateObject_Intro.swift in Sources */,
+				C9C22F0D29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift in Sources */,
 				C966AF5629B44AB000F41140 /* EnvironmentObject_Intro.swift in Sources */,
 				C98D082829A45021001D9A86 /* StateObject_BindingWithOtherViews.swift in Sources */,
 				C9A7630429A6FB9D0070E669 /* AppStorage_Edit.swift in Sources */,

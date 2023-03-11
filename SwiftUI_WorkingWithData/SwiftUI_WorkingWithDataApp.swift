@@ -11,8 +11,7 @@ import SwiftUI
 struct SwiftUI_WorkingWithDataApp: App {
     var body: some Scene {
         WindowGroup {
-            OnReceive_WithEnvironmentObject()
-                .environmentObject(UserModel())
+            OnSubmit_Intro()
         }
     }
 }

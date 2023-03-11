@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_WorkingWithDataApp: App {
     var body: some Scene {
         WindowGroup {
-            OnSubmit_Intro()
+            OnSubmit_SubmitScope()
         }
     }
 }

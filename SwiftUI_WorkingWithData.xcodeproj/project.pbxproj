@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C90D42B629B72F0900768A30 /* OnChange_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D42B529B72F0900768A30 /* OnChange_Intro.swift */; };
 		C90D42B829B743B100768A30 /* OnChange_MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D42B729B743B100768A30 /* OnChange_MainThread.swift */; };
-		C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEDD299BABBF00C270A2 /* BindingWithList.swift */; };
 		C912EEE0299BAC7C00C270A2 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */; };
 		C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912EEE1299BAD6300C270A2 /* BindingWithList_iOS15.swift */; };
 		C914E0C529A0D5C00067A93E /* StateObject_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */; };
@@ -51,6 +50,10 @@
 		C9C22F0B29BA088000B31F44 /* OnReceive_PublisherOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C22F0A29BA088000B31F44 /* OnReceive_PublisherOutput.swift */; };
 		C9C22F0D29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C22F0C29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift */; };
 		C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F0F77F29953A7B000527EB /* StateWithTextField.swift */; };
+		C9F8A6BD29BD87AD00DB6CF4 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8A6BC29BD87AD00DB6CF4 /* BooksView.swift */; };
+		C9F8A6BF29BD882A00DB6CF4 /* BindingWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8A6BE29BD882A00DB6CF4 /* BindingWithList.swift */; };
+		C9F8A6C129BD884300DB6CF4 /* BooksOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8A6C029BD884300DB6CF4 /* BooksOO.swift */; };
+		C9F8A6C529BD887E00DB6CF4 /* BookDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8A6C429BD887E00DB6CF4 /* BookDO.swift */; };
 		C9F90C6629934F830080D286 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F90C6529934F830080D286 /* HeaderView.swift */; };
 		C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94B9299350D600CB78FD /* StructVariables.swift */; };
 		C9FF94BC2993525C00CB78FD /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF94BB2993525C00CB78FD /* DescView.swift */; };
@@ -60,7 +63,6 @@
 /* Begin PBXFileReference section */
 		C90D42B529B72F0900768A30 /* OnChange_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_Intro.swift; sourceTree = "<group>"; };
 		C90D42B729B743B100768A30 /* OnChange_MainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_MainThread.swift; sourceTree = "<group>"; };
-		C912EEDD299BABBF00C270A2 /* BindingWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BindingWithList.swift; path = ../../../../../../BindingWithList.swift; sourceTree = "<group>"; };
 		C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 		C912EEE1299BAD6300C270A2 /* BindingWithList_iOS15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithList_iOS15.swift; sourceTree = "<group>"; };
 		C914E0C429A0D5BF0067A93E /* StateObject_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_Intro.swift; sourceTree = "<group>"; };
@@ -103,6 +105,10 @@
 		C9C22F0A29BA088000B31F44 /* OnReceive_PublisherOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_PublisherOutput.swift; sourceTree = "<group>"; };
 		C9C22F0C29BA09A600B31F44 /* OnReceive_WithEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_WithEnvironmentObject.swift; sourceTree = "<group>"; };
 		C9F0F77F29953A7B000527EB /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
+		C9F8A6BC29BD87AD00DB6CF4 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		C9F8A6BE29BD882A00DB6CF4 /* BindingWithList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingWithList.swift; sourceTree = "<group>"; };
+		C9F8A6C029BD884300DB6CF4 /* BooksOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksOO.swift; sourceTree = "<group>"; };
+		C9F8A6C429BD887E00DB6CF4 /* BookDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDO.swift; sourceTree = "<group>"; };
 		C9F90C6529934F830080D286 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C9FF94B9299350D600CB78FD /* StructVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVariables.swift; sourceTree = "<group>"; };
 		C9FF94BB2993525C00CB78FD /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
@@ -138,8 +144,8 @@
 		C912EEDC299BAB5D00C270A2 /* @Binding */ = {
 			isa = PBXGroup;
 			children = (
+				C9F8A6BE29BD882A00DB6CF4 /* BindingWithList.swift */,
 				C912EEDF299BAC7C00C270A2 /* EditPersonView.swift */,
-				C912EEDD299BABBF00C270A2 /* BindingWithList.swift */,
 				C912EEE1299BAD6300C270A2 /* BindingWithList_iOS15.swift */,
 				C99D696D299D3A1E0064D7E0 /* BindingWithLazyVStack.swift */,
 				C954B0CD299EB1F20083DF0B /* ClassData_Binding.swift */,
@@ -255,6 +261,7 @@
 				C94A9E9C29B05E920076F116 /* @SceneStorage */,
 				C966AF5429B44AA200F41140 /* @EnvironmentObject */,
 				C90D42B429B72E9700768A30 /* Input&Output Modifiers */,
+				C9F8A6BA29BD879100DB6CF4 /* Architecture */,
 				C9AE4E6129934EE10015871A /* Assets.xcassets */,
 				C9AE4E6329934EE10015871A /* Preview Content */,
 			);
@@ -276,6 +283,24 @@
 				C9FF94BB2993525C00CB78FD /* DescView.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		C9F8A6BA29BD879100DB6CF4 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				C9F8A6BB29BD879E00DB6CF4 /* VOODO */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		C9F8A6BB29BD879E00DB6CF4 /* VOODO */ = {
+			isa = PBXGroup;
+			children = (
+				C9F8A6BC29BD87AD00DB6CF4 /* BooksView.swift */,
+				C9F8A6C029BD884300DB6CF4 /* BooksOO.swift */,
+				C9F8A6C429BD887E00DB6CF4 /* BookDO.swift */,
+			);
+			path = VOODO;
 			sourceTree = "<group>";
 		};
 		C9FF94B8299350CB00CB78FD /* Struct Properties */ = {
@@ -361,7 +386,9 @@
 				C90D42B629B72F0900768A30 /* OnChange_Intro.swift in Sources */,
 				C99D696E299D3A1E0064D7E0 /* BindingWithLazyVStack.swift in Sources */,
 				C90D42B829B743B100768A30 /* OnChange_MainThread.swift in Sources */,
+				C9F8A6C129BD884300DB6CF4 /* BooksOO.swift in Sources */,
 				C9487B9B2999426100F998EF /* StateWithClassData.swift in Sources */,
+				C9F8A6BD29BD87AD00DB6CF4 /* BooksView.swift in Sources */,
 				C9C0504429B85C45005DE57E /* OnChange_PreviousValue.swift in Sources */,
 				C912EEE2299BAD6300C270A2 /* BindingWithList_iOS15.swift in Sources */,
 				C91A4B1429B59FAF0082326D /* EnvironmentObject_GloballyAccessible.swift in Sources */,
@@ -380,9 +407,9 @@
 				C9FF94BA299350D600CB78FD /* StructVariables.swift in Sources */,
 				C950C31929960487004F7440 /* StateWithToggle.swift in Sources */,
 				C98D082A29A45241001D9A86 /* StateObject_PassInObject.swift in Sources */,
-				C912EEDE299BABBF00C270A2 /* BindingWithList.swift in Sources */,
 				C9C0504629B88512005DE57E /* OnReceive_Intro.swift in Sources */,
 				C97DAD2429A850E400024083 /* AppStorage_Persistence.swift in Sources */,
+				C9F8A6BF29BD882A00DB6CF4 /* BindingWithList.swift in Sources */,
 				C950C31D29963251004F7440 /* StateWithModifiers.swift in Sources */,
 				C94A9EA029B05F050076F116 /* SavingData_DataEntry.swift in Sources */,
 				C9F0F78029953A7B000527EB /* StateWithTextField.swift in Sources */,
@@ -401,6 +428,7 @@
 				C954B0CE299EB1F20083DF0B /* ClassData_Binding.swift in Sources */,
 				C932285E29AF992500341BE3 /* AppStorage_WhatCanBeStored.swift in Sources */,
 				C98C045A2993CF0700D9FA5C /* PropertyWrappers_Intro.swift in Sources */,
+				C9F8A6C529BD887E00DB6CF4 /* BookDO.swift in Sources */,
 				C950C31B299605ED004F7440 /* StateWithPicker.swift in Sources */,
 				C952BD992997C0710094E53F /* StateBindingWithOtherViews.swift in Sources */,
 			);
